@@ -5,6 +5,9 @@ import "./Dictionary.css";
 
 export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
+
+    function handleResponse() {}
+
     function search(event) {
         event.preventDefault();
         alert(`Searching for ${keyword}`);
